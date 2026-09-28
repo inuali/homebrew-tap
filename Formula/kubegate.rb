@@ -5,12 +5,12 @@
 class Kubegate < Formula
   desc "Human approval for AI-driven Kubernetes changes — the KubeGate CLI and MCP server"
   homepage "https://github.com/inuali/kubegate-cli"
-  version "26.9.2"
+  version "26.9.3"
   license "MIT"
   depends_on :macos
 
-  url "https://github.com/inuali/kubegate-cli/releases/download/v26.9.2/kubegate_26.9.2_darwin_all.tar.gz"
-  sha256 "54214251f98b8ee2c407f7c131ed71aff69aed5ba028d18b95631716438982db"
+  url "https://github.com/inuali/kubegate-cli/releases/download/v26.9.3/kubegate_26.9.3_darwin_all.tar.gz"
+  sha256 "6b59a190ae5b5fa8cecd58cc3f69a1e4cfc3bf0d2599a41ea34284705737e207"
 
   define_method(:install) do
     bin.install "kubegate"
