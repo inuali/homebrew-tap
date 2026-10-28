@@ -5,12 +5,12 @@
 class Buildcaptain < Formula
   desc "CLI and MCP gateway for the BuildCaptain macOS Jenkins app"
   homepage "https://buildcaptain.dev"
-  version "26.9.1"
+  version "26.10.1"
   license "MIT"
   depends_on :macos
 
-  url "https://github.com/inuali/buildcaptain-cli/releases/download/v26.9.1/buildcaptain_26.9.1_darwin_all.tar.gz"
-  sha256 "ab471c9e862fa6af2138be734067948b3f4bf0ff2ebf3a88ba6cf75f41826379"
+  url "https://github.com/inuali/buildcaptain-cli/releases/download/v26.10.1/buildcaptain_26.10.1_darwin_all.tar.gz"
+  sha256 "ecdcb274d3c0ec191b1b013cff211e01a65de3e1fcc3dd98194f95283ca96205"
 
   define_method(:install) do
     bin.install "buildcaptain"
